@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array>
+    <string>amd</string>
+    <string>akiyamarkdown</string>
+  </array>
+  <key>keyEquivalent</key>
+  <string>^~A</string>
+  <key>name</key>
+  <string>Amd</string>
+  <key>patterns</key>
+  <array>
+    <dict>
+      <key>match</key>
+      <string>^\s*(\w+.+:\s*(\@[^\s]+(\(.*?\))?\s*)*$\n?)</string>
+      <key>name</key>
+      <string>keyword.control.header.todo</string>
+    </dict>
+
+    <dict>
+      <key>match</key>
+      <string>【(.*?)】</string>
+      <key>name</key>
+      <string>keyword.title</string>
+    </dict>
+
+    <dict>
+      <key>match</key>
+      <string>■(.*)</string>
+      <key>name</key>
+      <string>keyword.subtitle</string>
+    </dict>
+
+    <dict>
+      <key>match</key>
+      <string>・(.*)</string>
+      <key>name</key>
+      <string>keyword.smalltitle</string>
+    </dict>
+
+    <dict>
+      <key>match</key>
+      <string>→(.*)</string>
+      <key>name</key>
+      <string>keyword.indent</string>
+    </dict>
+
+    <dict>
+      <key>match</key>
+      <string>　*</string>
+      <key>name</key>
+      <string>keyword.space</string>
+    </dict>
+
+
+  </array>
+
+  <key>repository</key>
+  <dict>
+    <key>bold</key>
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.bold</string>
+        </dict>
+      </dict>
+      <key>begin</key>
+      <string>(\*\*|__)(?=\S)(?=(?!(?&lt;=\S)\1).+(?&lt;=\S)\1)</string>
+      <key>end</key>
+      <string>(?&lt;=\S)(\1)</string>
+      <key>name</key>
+      <string>todo.bold</string>
+    </dict>
+    <key>italic</key>
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.italic</string>
+        </dict>
+      </dict>
+      <key>begin</key>
+      <string>(\*|_)(?=\S)(?=(\1\1|(?!(?&lt;=\S)\1).)++(?&lt;=\S)\1)</string>
+      <key>end</key>
+      <string>(?&lt;=\S)(\1)((?!\1)|(?=\1\1))</string>
+      <key>name</key>
+      <string>todo.italic</string>
+    </dict>
+  </dict>
+  <key>scopeName</key>
+  <string>text.amd</string>
+  <key>uuid</key>
+  <string>8fj2g29c-04ef-4330-9a6b-9b99aae1c418</string>
+</dict>
+</plist>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Browse</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#222</string>
+        <key>foreground</key>
+        <string>#fafafa</string>
+        <key>caret</key>
+        <string>#367cc0</string>
+        <key>gutter</key>
+        <string>#222</string>
+
+        <key>invisibles</key>
+        <string>#88222233</string>
+        <key>lineHighlight</key>
+        <string>#f67cc033</string>
+
+        <key>selection</key>
+        <string>#f2222233</string>
+        <key>selectionBorder</key>
+        <string>#f2222233</string>
+        <key>inactiveSelection</key>
+        <string>#f2222219</string>
+
+        <key>activeGuide</key>
+        <string>#9D550Fff</string>
+        <key>stackGuide</key>
+        <string>#aaaaaa33</string>
+        <key>guide</key>
+        <string>#aaaaaa33</string>
+
+      </dict>
+    </dict>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <dict>
+      <key>name</key>
+      <string>Title</string>
+      <key>scope</key>
+      <string>keyword.title</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#70aacc</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>SubTitle</string>
+      <key>scope</key>
+      <string>keyword.subtitle</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#fd9a41</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>SmallTitle</string>
+      <key>scope</key>
+      <string>keyword.smalltitle</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#b6d971</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>indent</string>
+      <key>scope</key>
+      <string>keyword.indent</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#aaa</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>space</string>
+      <key>scope</key>
+      <string>keyword.space</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000</string>
+      </dict>
+    </dict>
+
+  </array>
+  <key>uuid</key>
+  <string>07379361-ce49-4e6c-a03f-26378a7a2131</string>
+</dict>
+</plist>
+

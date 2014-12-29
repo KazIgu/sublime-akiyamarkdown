@@ -1,0 +1,14 @@
+{
+  "color_scheme": "Packages/Akiyamarkdown/Akiyamarkdown.tmTheme",
+  "word_wrap": false,
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+
+  "extensions":
+  [
+    "amd"
+  ]
+}

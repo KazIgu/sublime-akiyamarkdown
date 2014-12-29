@@ -1,0 +1,18 @@
+[
+  {
+    "keys": ["shift+enter"],
+    "command": "akiyamarkdown",
+    "context": [{ "key": "selector", "operator": "equal", "operand": "text.amd" }]
+  },
+  {
+    "keys": ["　"],
+    "command": "akiyamaspace",
+    "context": [{ "key": "selector", "operator": "equal", "operand": "text.amd" }]
+  }
+
+  // {
+  //   "keys": ["shift+left"],
+  //   "command": "akiyamadelindent",
+  //   "context": [{ "key": "selector", "operator": "equal", "operand": "text.amd" }]
+  // }
+]
